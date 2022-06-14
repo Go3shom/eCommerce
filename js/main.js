@@ -3,8 +3,8 @@
 let ajaxCall = new XMLHttpRequest();
 let allProducts = [];
 
-ajaxCall.open('GET', '../products.json', true);
-// ajaxCall.open('GET', 'https://fakestoreapi.com/products', true);
+// ajaxCall.open('GET', '../products.json', true);
+ajaxCall.open('GET', 'https://fakestoreapi.com/products', true);
 ajaxCall.send();
 
 
